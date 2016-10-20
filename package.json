@@ -1,0 +1,33 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "cnpm i",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "production": "gulp production"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "卓文理 (http://www.zhuowenli.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.5",
+    "browserify": "^13.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-tap": "^0.1.3",
+    "imagemin-pngquant": "^5.0.0",
+    "require-dir": "^0.3.1",
+    "vinyl-buffer": "^1.0.0"
+  }
+}

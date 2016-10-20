@@ -1,0 +1,38 @@
+{
+    "tasks": {
+        "browserSync": {
+            "server": {
+                "baseDir": "./"
+            }
+        },
+        "css": {
+            "src": "sass",
+            "dest": "css",
+            "sass": {},
+            "extensions": ["sass", "scss", "css"]
+        },
+        "js": {
+            "src": "src",
+            "dest": "js",
+            "extensions": ["js", "json"],
+            "babel": {
+                "presets": ["es2015", "stage-1"]
+            }
+        },
+        "html": {
+            "src": "ztpl",
+            "dest": "src/tpl",
+            "extensions": ["html"],
+            "entries": {
+                "combo": true,
+                "type": "commonjs",
+                "escape": false
+            }
+        },
+        "images": {
+            "src": "img",
+            "dest": "img",
+            "extensions": ["jpg", "png", "svg", "gif"]
+        }
+    }
+}
