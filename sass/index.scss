@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * @author: 卓文理
+ * @email : 531840344@qq.com
+ * @desc  : Description
+ */
+
+@import "../node_modules/sass-core/base";
+
+.container{
+    display: block;
+    max-width: 640px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+nav{
+    background: #f2f2f2;
+    padding: 5px 0;
+    ul{
+        @include display-flex;
+        li{
+            text-align: center;
+            @include flex(1);
+        }
+        a{
+            display: block;
+            line-height: 40px;
+        }
+    }
+}
